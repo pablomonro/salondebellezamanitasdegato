@@ -1,0 +1,56 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+body{
+	min-height: 100vh;
+	margin: 26px;
+	min-height: 60vh;
+
+background-image: url(ima.jpg) ;
+	background-size: ;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+   background-position: right;
+
+}
+@font-face{
+
+font-family:P;
+src: url(Letras/ITCEDSCR.ttf);
+
+
+}
+
+h1{
+  font-family:P;
+  font-size: 400%;
+}
+
+.buttons {
+  min-width: 1200px;
+  display: flex;
+  justify-content: flex-end;
+/*justify-content: space-around;*/
+}
+
+.buttons a {
+  text-decoration: none;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+
+  line-height: 60px;
+  text-align: center;
+  background: #314652;
+  color: #f1f1f1;
+  border-radius: 30%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+  transition: all .4s ease-in-out;
+}
+
+.buttons a:hover {
+  transform: scale(1.2);
+}
